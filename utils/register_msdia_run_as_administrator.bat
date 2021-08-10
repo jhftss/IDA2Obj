@@ -1,0 +1,1 @@
+regsvr32 "%~dp0bin\msdia140.dll"

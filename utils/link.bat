@@ -1,0 +1,3 @@
+rem Usage: link.bat WindowsCodecsRaw dll/exe/sys afl/trace [/RELEASE]
+SET batpath=%~dp0
+"%batpath%bin\link.exe" /OUT:"%1\%1.%3.%2" /PDB:"%1\%1.%3.pdb" /DEBUG /%2 /DEF:"%1\exports_%3.def" %4 %5 %6 "%1\libs\*.lib" "%1\objs\%3\*.obj" "%batpath:~0,-6%payloads\%3_payload64.obj" /MACHINE:X64 /ERRORREPORT:PROMPT /INCREMENTAL:NO /NOLOGO /GUARD:NO /MANIFEST:NO /NODEFAULTLIB /DYNAMICBASE /NXCOMPAT /SECTION:.pdata,R
