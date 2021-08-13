@@ -53,7 +53,7 @@ Repo Link: https://github.com/jhftss/IDA2Obj (private now, will be open source a
 
 __HITB__ : https://conference.hitb.org/hitbsecconf2021sin/sessions/ida2obj-static-binary-instrumentation-on-steroids/
 
-__Slides__ : https://github.com/jhftss/IDA2Obj/blob/main/rsrc/HITB2021SIN%20-%20IDA2Obj%20Static%20Binary%20Instrumentation%20On%20Steroids.pdf 
+__Slides__ : https://github.com/jhftss/IDA2Obj/blob/main/rsrc/HITB2021SIN%20-%20IDA2Obj_Static%20Binary%20Instrumentation%20On%20Steroids.pdf
 
 __Demo__ : https://drive.google.com/file/d/1N3DXJCts5jG0Y5B92CrJOTIHedWyEQKr/view?usp=sharing
 
