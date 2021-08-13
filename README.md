@@ -44,6 +44,7 @@ The working flow is simple:
 9. Patch the new built binary by using `utils/PatchPEHeader.py`.
 
    - e.g. `utils/PatchPEHeader.py GdiPlus/GdiPlus.afl.dll`
+   - For the first time, you may need to run  `utils/register_msdia_run_as_administrator.bat` as administrator.
 
 10. Run & Fuzz.
 
