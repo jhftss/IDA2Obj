@@ -11,6 +11,10 @@ The working flow is simple:
 
 ## How to use
 
+0. Prepare the enviroment:
+   - Set `AUTOIMPORT_COMPAT_IDA695 = YES` in the `idapython.cfg` to support the API with old IDA 6.x style.
+   - Install dependency: `pip install cough`
+
 1. Create a folder as the workspace.
 
 2. Copy the target binary which you want to fuzz into the workspace.
